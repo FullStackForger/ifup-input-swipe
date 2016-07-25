@@ -36,6 +36,7 @@ namespace ifup.input
             if (contact) {               
                 if (!m_contact) {
                     m_swipeData = new SwipeData() {
+                        swipeAxis = swipeAxis,
                         swipeStartTme = Time.time,
                         swipeStartPosition = contactPosition
                     };
